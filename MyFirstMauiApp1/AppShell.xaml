@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MyFirstMauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MyFirstMauiApp1"
+    Shell.FlyoutBehavior="Flyout"
+    Title="MyFirstMauiApp1">
+
+    <ShellContent
+        Title="Tela de Login"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+
+    <ShellContent
+        Title="VerticalHorizontal"
+        ContentTemplate="{DataTemplate local:VerticalHorizontal}"
+        Route="VerticalHorizontal" />
+
+
+    <ShellContent
+        Title="Netlflix"
+        ContentTemplate="{DataTemplate local:Netlflix}"
+        Route="Netlflix" />
+
+    <ShellContent
+        Title="Grid"
+        ContentTemplate="{DataTemplate local:Grid}"
+        Route="Grid" />
+
+
+    <ShellContent
+        Title="Listagem"
+        ContentTemplate="{DataTemplate local:Listagem}"
+        Route="Listagem" />
+
+
+</Shell>

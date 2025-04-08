@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstMauiApp1.VerticalHorizontal"
+             Title="VerticalHorizontal">
+
+    <ScrollView>
+        
+        <VerticalStackLayout Spacing="30" Padding="20" BackgroundColor="Beige">
+
+            <VerticalStackLayout BackgroundColor="White" Padding="15">
+
+                <HorizontalStackLayout>
+                    <Image WidthRequest="150" Source="dotnet_bot.png"/>
+
+                    <VerticalStackLayout VerticalOptions="Center" >
+
+                        <Label Text="Título" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="Nsei se vai dar certo"/>
+
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+
+                <Button Text="Comprar" Clicked="Comprar_Clicked"/>
+                <Label x:Name="LabelComprar" Text="Produto adicionado ao carrinho" BackgroundColor="LimeGreen" Margin="10" Padding="10" IsVisible="False"/>
+
+            </VerticalStackLayout>
+
+
+            <VerticalStackLayout BackgroundColor="White" Padding="15">
+
+                <HorizontalStackLayout>
+                    <Image WidthRequest="150" Source="dotnet_bot.png"/>
+
+                    <VerticalStackLayout VerticalOptions="Center" >
+
+                        <Label Text="Título" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="Nsei se vai dar certo"/>
+
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+
+                <Button Text="Comprar"/>
+
+            </VerticalStackLayout>
+
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+    
+</ContentPage>

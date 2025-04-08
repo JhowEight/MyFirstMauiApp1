@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstMauiApp1.NewPage1"
+             Title="NewPage1">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <HorizontalStackLayout Spacing="20">
+                <Label Text="Windows"/>
+                <Label Text="Phone"/>
+                <Label Text="Tablet"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+
+                <Image Source="dotnet_bot.png" WidthRequest="125" />
+                <Label Text="Start by Mar 31 and get a 10x boost on
+                       PC for 7 days" VerticalOptions="Center" />
+
+            </HorizontalStackLayout>
+
+            <VerticalStackLayout>
+                <Label Text="Featured games"/>
+                <Label Text="Google Play Games on PC"/>
+            </VerticalStackLayout>
+
+            <ScrollView Orientation="Horizontal">
+                <HorizontalStackLayout>
+                    
+                    <VerticalStackLayout>
+                        <Image Source="dotnet_bot.png" WidthRequest="125" />
+                        <Label Text="June´s Journey:
+                               Hidden Objects
+                               ⭐4,5"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout>
+                        <Image Source="dotnet_bot.png" WidthRequest="125" />
+                        <Label Text="Clash Of Clans
+                               ⭐4,6"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout>
+                        <Image Source="dotnet_bot.png" WidthRequest="125" />
+                        <Label Text="FINAL FANTASY
+                               BEWOTV
+                               ⭐3,9"/>
+                    </VerticalStackLayout>
+
+                </HorizontalStackLayout>
+            </ScrollView>
+
+            <VerticalStackLayout>
+                <Label Text="Discover top picks"/>
+                <Label Text="Google Play Games on PC"/>
+            </VerticalStackLayout>
+            
+            
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
